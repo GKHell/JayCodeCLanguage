@@ -6,7 +6,7 @@ void main()
 {
 	char ch;
 	//clrscr();
-
+	
 		
 	//getch();
 }
