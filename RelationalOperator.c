@@ -52,7 +52,6 @@ void main()
 	else
 		printf("false : %d is equals to %d\n",a,b);
 
-
 	// getch();
 
 

@@ -1,10 +1,6 @@
 
 #include<stdio.h>
-#include<conio.h>
 int main()
 {
-
-	// clrscr();
-		printf("Hello World\n");
-	// getch();
+	printf("Hello Code :) \n");
 }
