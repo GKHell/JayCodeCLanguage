@@ -11,9 +11,9 @@ int main()
 
 	while(i<=end)
 	{
-		printf("Line %d\n",i);
 
-		i+=10;
+		printf("Line %d : %d\n",i,i*i);
+		i++;
 	}
 
 	/*
