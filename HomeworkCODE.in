@@ -14,4 +14,21 @@
 4: w.a.p with nested switch 
 
 
+// 8 july
+/*
+	start:
+
+	printf("Enter 2 num : ");
+	scanf("%d,%d",&a,&b);
+
+	pf("%d + %d = %d \n",a,b,a+b);
+
+	pf("do you want to repeat [y/n]: ");
+	sf("%c",&choice);
+
+	if(choice=='y' || choice =='Y')
+		goto start;
+
+*/
+
 
