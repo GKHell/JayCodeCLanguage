@@ -1,3 +1,5 @@
+
+// for loop
 #include<stdio.h>
 int main()
 {
@@ -12,7 +14,7 @@ int main()
 	/*
 			syntax: 
 
-			for(initialization;condtion;increment/decremnt)
+			for(initialization;condition;increment/decremnt)
 			{
 					//code
 			}

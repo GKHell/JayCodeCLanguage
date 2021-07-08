@@ -11,8 +11,7 @@ int main()
 
 	while(i<=end)
 	{
-
-		printf("Line %d : %d\n",i,i*i);
+		printf("Line %3d : %d\n",i,i*i);
 		i++;
 	}
 
