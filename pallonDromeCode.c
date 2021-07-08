@@ -2,12 +2,13 @@
 #include<stdio.h>
 int main()
 {
-	int num,reverse = 0,rem;
+	int num,reverse = 0,rem,temp;
 
 
 	printf("Enter the number : ");
 	scanf("%d",&num);
 
+	temp = num;
 	while(num>0)
 	{
 		rem = num % 10;
@@ -15,8 +16,18 @@ int main()
 		num = num/10;
 	}
 
-	printf("reverse number : %d\n",reverse);
+	printf("   reverse number : %d\n",reverse);
 	
+	if(temp == reverse)
+	{
+		printf("%d is pallondrome number\n",temp);
+	}
+	else
+	{
+		printf("%d is not pallondrome number\n",temp);
+
+	}
+
 }
 
 /*
