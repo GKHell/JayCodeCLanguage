@@ -31,4 +31,8 @@
 
 */
 
-
+// 9 july
+1. w.a.p to find minimum number from given array.
+2. w.a.p to find the avarage of given nth data.
+3. w.a.p to sort the array.
+4. w.a.p to print the all character of given array like 65 = 'A' //printf("%d : %c\n",a[i],a[i]);
