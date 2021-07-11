@@ -30,6 +30,6 @@ int main()
 		printf("Enter 'n' or 'N' to exit ... [y/n] : ");
 		scanf("%c",&choice);
 
-		// system("clear"); // clrscr();
+		system("clear"); // clrscr();
 	}while(choice != 'N' && choice != 'n');
 }
