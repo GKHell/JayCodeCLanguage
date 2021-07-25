@@ -9,8 +9,6 @@ int main()
 	int n,i;
 	int *ptr = a; //*ptr = &a[0];
 
-	// printf("Enter size :\n");
-	printf("data with %u\n",&a[0] );
-	printf("data with %u\n",a );
-
+	printf("Enter size : ");
+	 
 }
