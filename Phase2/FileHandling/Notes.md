@@ -4,8 +4,13 @@
 ## Modes of File 
 
 r : read
+
 w : write   ->  create the file If Don't exists. 
+
 a : append
+
 --------------
+
 r+: read/write
+
 w+: write/read 
