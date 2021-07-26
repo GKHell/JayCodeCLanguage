@@ -7,7 +7,7 @@ struct Employee{
 
 	int emp_id;
 	char name[100];
-	double salary;
+	int salary;
 }emp;
 
 void getData()
@@ -20,7 +20,7 @@ void getData()
 	 
 
 	printf("Enter salary : ");
-	scanf("%ld",&emp.salary);
+	scanf("%d",&emp.salary);
 
 	 
 	printf("Enter fileName : ");
@@ -32,7 +32,7 @@ void storeInFile()
 {
 	fp = fopen(fileName,"w");
 
-	fprintf(fp, "%4d | %10s | %ld\n",emp.emp_id,emp.name,emp.salary);
+	fprintf(fp, "%4d | %10s | %d\n",emp.emp_id,emp.name,emp.salary);
 }
 
 void main()
