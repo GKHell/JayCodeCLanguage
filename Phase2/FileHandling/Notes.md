@@ -3,14 +3,16 @@
 
 ## Modes of File 
 
-r : read
+r : read  -> Return NULL if File Doesn't exists
 
 w : write   ->  create the file If Don't exists. 
 
-a : append
+a : append -> append the data to end of file..
 
 --------------
 
 r+: read/write
 
 w+: write/read 
+
+a+: append/read
