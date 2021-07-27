@@ -120,7 +120,7 @@ int main()
 		printf("\n");
 		switch(choice)
 		{
-			case 1: insert();break;
+			case 1: ;break;
 			case 2: display();break;
 			case 3:
 					printf("Enter index to delete : ");
